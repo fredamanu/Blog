@@ -1,0 +1,4 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "auto-close-tag.disableOnLanguage": ["html5", "ejs"]
+}

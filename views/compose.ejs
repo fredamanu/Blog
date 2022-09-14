@@ -1,0 +1,24 @@
+<%-include("partials/header");-%>
+<div class="container">
+  <h1>Compose</h1>
+  <form method="post" action="/compose">
+    <div class="mb-3">
+      <label class="titleLabel">Title</label>
+      <input type="text" class="form-control" name="postTitle" />
+    </div>
+    <div class="mb-3">
+      <label class="postLabel">Post</label>
+      <textarea class="form-control" name="postBody"></textarea>
+    </div>
+    <div class="mb-3">
+      <label class="postLabel">Post Photo URL</label>
+      <input class="form-control" name="postPhotoURL" type="text" />
+    </div>
+    <div class="mb-3">
+      <label class="postLabel">Author</label>
+      <input class="form-control" name="author" type="text" />
+    </div>
+    <button type="submit" class="btn btn-primary btn-sm">Publish</button>
+  </form>
+</div>
+<%-include("partials/footer"); -%>
